@@ -1,6 +1,5 @@
 from typing import Any, Generic, Optional, Type, TypeVar
-from sqlmodel import desc
-from sqlalchemy.orm import Session
+from sqlmodel import desc, Session
 
 from ..models.base import BaseTableModel, BaseModel
 
