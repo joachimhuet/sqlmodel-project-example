@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Session
+from sqlmodel import Session
 
 from library.crud.site import CRUDSite
 from library.crud.tenant import CRUDTenant
